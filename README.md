@@ -1,15 +1,21 @@
 # Why I have to create the fiov2_toolkit?
 
 When I want to know the storage like DAS or NAS performance benchmark, engineering have tool like IOmeter, fio, sysbench, hdparm etc.   
+
 Above tools can help for get the storage benchmark result, but the result is not easy to read for normal people.   
+
 So my idea come from IOmeter that can export the result log as a CSV format file and then import to MS Excel **fiov2_log_reader.xls**   
+
 But the IOmeter(UI)/dynamo(cli) was a long time no maintain. As we know the **fio** have a lot of parameters help for custimize test case.  
+
 So, I try to define the benchmark parameters like IOmeter's configuration and create fiov2_toolkit.
+
 Finally, We just share the Excel document for reader. 
 
 # When we need use it?
 
 When the company buy a new server or storage, first we have to know the server/storage base line performance for compare the loading with other server/storage.  
+
 Like as different RAID Controller, RAID set, SAS/SATA disk, JBOD/RAID storage, NVMe/SSD model, Fibre Channel HBA etc. 
 
 # fiov2_toolkit
